@@ -4,11 +4,10 @@ from pesetacoin import *
 import interface
 from blockchain import Blockchain
 
-DEFAULT_PORTS = {'t':'50101', 's':'50102', 'h':'8100', 'g':'8200'}
+DEFAULT_PORTS = {'t':'50001', 's':'50002', 'h':'8100', 'g':'8200'}
 
 DEFAULT_SERVERS = {
-    'electrum.pesetacoin.info':DEFAULT_PORTS,
-    'electrum1.pesetacoin.info':DEFAULT_PORTS,
+    'vmi268686.contaboserver.net':DEFAULT_PORTS,
   
 }
 
